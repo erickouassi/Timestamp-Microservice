@@ -37,7 +37,7 @@ app.get('/:timeStamp', function (req, res) {
   } else {
     res.json({
       'unix': null,
-      'natural': null
+      'natural': "Invalid Date"
     });
   }
   
