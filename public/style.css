@@ -50,18 +50,21 @@ li {
 
 a {
 	color: #2574A9;
+  
 }
 
 b {
 	color: red;
 }
+
+.shareLink a {
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
 /* Tutorial links 
 Project link: https://sm-timestamp-microservice.glitch.me/ 
 Github Repo: https://github.com/nazarja/timestamp-microservice
------
-
-
-
-
-
 */
