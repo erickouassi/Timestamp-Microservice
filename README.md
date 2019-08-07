@@ -7,7 +7,7 @@ In the url bar you can enter either a natural language date or a unix timestamp 
 
 https://ek-timestamp-microservice.glitch.me/ unix timestamp
 
-https://ek-timestamp-microservice.glitch.me/ natural language date
+https://ek-timestamp-microservice.glitch.me/Month%20Day,%20Year (natural language date)
 
 #### Example usage:
 * [https://ek-timestamp-microservice.glitch.me/May%2018,%201981](https://ek-timestamp-microservice.glitch.me/May%2018,%201981)
@@ -19,5 +19,5 @@ https://ek-timestamp-microservice.glitch.me/ natural language date
 Developed for a Free Code Camp project.
 
 Original project idea link:
-[https://learn.freecodecamp.org/apis-and-microservices/apis-and-microservices-projects/request-header-parser-microservice](https://learn.freecodecamp.org/apis-and-microservices/apis-and-microservices-projects/request-header-parser-microservice)
+[https://learn.freecodecamp.org/apis-and-microservices/apis-and-microservices-projects/timestamp-microservice](https://learn.freecodecamp.org/apis-and-microservices/apis-and-microservices-projects/timestamp-microservice)
 
