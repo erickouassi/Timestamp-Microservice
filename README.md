@@ -3,15 +3,21 @@
 
 ### User stories :
 
-1. The API endpoint is `GET [project_url]/api/timestamp/:date_string?`
-2. If the date string is **valid** the api returns a JSON having the structure 
-`{"unix": <date.getTime()>, "natural" : <date.toUTCString()> }`
-e.g. `{"unix": 1479663089000 ,"natural": "November 20, 2016"}`.
-3. If the date string is **invalid** the api returns a JSON having the structure `{"unix": null, "natural" : "Invalid Date" }`. It is what you get from the date manipulation functions used above.
+In the url bar you can enter either a natural language date or a unix timestamp on the tail end.
+
+https://ek-timestamp-microservice.glitch.me/ unix timestamp
+
+https://ek-timestamp-microservice.glitch.me/ natural language date
 
 #### Example usage:
-* https://ek-timestamp-microservice.glitch.me/May%2018,%201981
-* https://ek-timestamp-microservice.glitch.me/1450137600000
+* [https://ek-timestamp-microservice.glitch.me/May%2018,%201981](https://ek-timestamp-microservice.glitch.me/May%2018,%201981)
+* [https://ek-timestamp-microservice.glitch.me/358992000](https://ek-timestamp-microservice.glitch.me/358992000)
 
 #### Example output:
 * {"unix":"358992000","natural":"May 18, 1981"}
+
+Developed for a Free Code Camp project.
+
+Original project idea link:
+[https://learn.freecodecamp.org/apis-and-microservices/apis-and-microservices-projects/request-header-parser-microservice](https://learn.freecodecamp.org/apis-and-microservices/apis-and-microservices-projects/request-header-parser-microservice)
+
