@@ -5,9 +5,9 @@
 
 In the url bar you can enter either a natural language date or a unix timestamp on the tail end.
 
-https://ek-timestamp-microservice.glitch.me/ unix timestamp
-
 https://ek-timestamp-microservice.glitch.me/Month%20Day,%20Year (natural language date)
+
+https://ek-timestamp-microservice.glitch.me/15014678 unix timestamp
 
 #### Example usage:
 * [https://ek-timestamp-microservice.glitch.me/May%2018,%201981](https://ek-timestamp-microservice.glitch.me/May%2018,%201981)
